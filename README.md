@@ -9,7 +9,9 @@ Este es un pequeño proyecto en C++ usando la biblioteca SFML que renderiza un r
 🛠️ Tecnologías utilizadas
 
 Lenguaje: C++
+
 Gráficos: SFML 2.6
+
 IDE recomendado: Visual Studio 2022
 
 📦 Instalación y ejecución
@@ -40,12 +42,13 @@ cmake .. && make
 #include <SFML/Graphics.hpp>
 
 int main() {
+
     sf::RenderWindow window(sf::VideoMode(640, 480), "SFML Rectangle");
     sf::RectangleShape rectangle(sf::Vector2f(50.f, 50.f));
     rectangle.setFillColor(sf::Color::Cyan);
     rectangle.setPosition(320, 240);
     rectangle.setOrigin(rectangle.getSize().x / 2, rectangle.getSize().y / 2);
-
+    
     while (window.isOpen()) {
         sf::Event event;
         while (window.pollEvent(event)) {
@@ -61,7 +64,9 @@ int main() {
 🚀 Mejoras futuras
 
 Añadir movimiento al rectángulo con eventos de teclado.
+
 Implementar detección de colisiones.
+
 Agregar texturas y sprites animados.
 
 
