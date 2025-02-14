@@ -1,4 +1,5 @@
 🎨 SFML Rectangle
+
 Este es un pequeño proyecto en C++ usando la biblioteca SFML que renderiza un rectángulo en pantalla. Es una introducción a la creación de gráficos en 2D con SFML.
 
 📸 Captura de pantalla
@@ -8,9 +9,7 @@ Este es un pequeño proyecto en C++ usando la biblioteca SFML que renderiza un r
 🛠️ Tecnologías utilizadas
 
 Lenguaje: C++
-
 Gráficos: SFML 2.6
-
 IDE recomendado: Visual Studio 2022
 
 📦 Instalación y ejecución
@@ -28,16 +27,12 @@ Asegúrate de tener SFML instalado en tu sistema. Si aún no lo tienes, puedes d
 ▶️ 3. Compilar y ejecutar
 
 Si usas g++, compila con:
-
 g++ main.cpp -o app -lsfml-graphics -lsfml-window -lsfml-system
 ./app
 
 Si usas CMake, ejecuta:
-
 mkdir build && cd build
-
 cmake .. && make
-
 ./app
 
 📜 Código fuente principal
@@ -66,9 +61,7 @@ int main() {
 🚀 Mejoras futuras
 
 Añadir movimiento al rectángulo con eventos de teclado.
-
 Implementar detección de colisiones.
-
 Agregar texturas y sprites animados.
 
 
