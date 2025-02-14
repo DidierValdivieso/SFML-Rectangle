@@ -22,9 +22,10 @@ Este es un pequeño proyecto en C++ usando la biblioteca SFML que renderiza un r
 Asegúrate de tener SFML instalado en tu sistema. Si aún no lo tienes, puedes descargarlo desde SFML Official Site.
 
 ### 📥 2. Clonar este repositorio
-
+```sh
  git clone https://github.com/TuUsuario/SFML-Rectangle.git
  cd SFML-Rectangle
+```
 
 ### ▶️ 3. Compilar y ejecutar
 
