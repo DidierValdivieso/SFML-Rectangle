@@ -75,7 +75,7 @@ int main() {
 - Add textures and animated sprites.
 
 
-## 📄 Licencia
+## 📄 License
 
-Este proyecto está bajo la licencia MIT - consulta el archivo LICENSE para más detalles.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
