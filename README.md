@@ -1,48 +1,47 @@
 # 🎨 SFML Rectangle
 
-Este es un pequeño proyecto en C++ usando la biblioteca SFML que renderiza un rectángulo en pantalla. Es una introducción a la creación de gráficos en 2D con SFML.
+This is a small C++ project using the SFML library that renders a rectangle on the screen. It's an introduction to creating 2D graphics with SFML.
 
-## 📸 Captura de pantalla
+## 📸 Screenshot
 
 ![Captura](https://github.com/user-attachments/assets/eb583551-31a3-4aa6-9538-d018765b4f0f)
 
-## 🛠️ Tecnologías utilizadas
+## 🛠️ Technologies Used
 
-- **Lenguaje:** C++
+- **Language:** C++
 
-- **Gráficos:** SFML 2.6
+- **Graphics:** SFML 2.6
 
-- **IDE recomendado:** Visual Studio 2022
+- **Recommended IDE:** Visual Studio 2022
 
-## 📦 Instalación y ejecución
+## 📦 Installation and Runtime
 
+### 🔧 1. Install SFML
 
-### 🔧 1. Instalar SFML
+Make sure you have SFML installed on your system. If you don't have it yet, you can download it from the SFML Official Site.
 
-Asegúrate de tener SFML instalado en tu sistema. Si aún no lo tienes, puedes descargarlo desde SFML Official Site.
-
-### 📥 2. Clonar este repositorio
+### 📥 2. Clone this repository
 ```sh
  git clone https://github.com/TuUsuario/SFML-Rectangle.git
  cd SFML-Rectangle
 ```
 
-### ▶️ 3. Compilar y ejecutar
+### ▶️ 3. Compile and run
 
-Si usas g++, compila con:
+If you're using g++, compile with:
 ```sh
 g++ main.cpp -o app -lsfml-graphics -lsfml-window -lsfml-system
 ./app
 ```
 
-Si usas CMake, ejecuta:
+If you use CMake, run:
 ```sh
 mkdir build && cd build
 cmake .. && make
 ./app
 ```
 
-## 📜 Código fuente principal
+## 📜 Main source code
 
 ```sh
 #include <SFML/Graphics.hpp>
@@ -67,13 +66,13 @@ int main() {
     return 0;
 }
 ```
-## 🚀 Mejoras futuras
+## 🚀 Future Improvements
 
-- Añadir movimiento al rectángulo con eventos de teclado.
+- Add motion to the rectangle with keyboard events.
 
-- Implementar detección de colisiones.
+- Implement collision detection.
 
-- Agregar texturas y sprites animados.
+- Add textures and animated sprites.
 
 
 ## 📄 Licencia
